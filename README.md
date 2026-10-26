@@ -40,13 +40,13 @@ El script `install.sh` detecta automáticamente el gestor de paquetes y aprovisi
 Ejecuta la siguiente línea en tu terminal actual:
 
 ```bash
-bash -c "$(curl -fsSL [https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/install.sh](https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/install.sh))"
+bash -c "$(curl -fsSL [https://raw.githubusercontent.com/s0cr4mqwerty/best-zsh/main/install.sh](https://raw.githubusercontent.com/s0cr4mqwerty/best-zsh/main/install.sh))"
 ```
 
-> **Nota:** Si prefieres clonar e instalar localmente:
+> **Instalación manual / clonado local:**
 > ```bash
-> git clone [https://github.com/TU_USUARIO/TU_REPO.git](https://github.com/TU_USUARIO/TU_REPO.git) ~/dotfiles
-> cd ~/dotfiles
+> git clone [https://github.com/s0cr4mqwerty/best-zsh.git](https://github.com/s0cr4mqwerty/best-zsh.git) ~/best-zsh
+> cd ~/best-zsh
 > chmod +x install.sh
 > ./install.sh
 > ```

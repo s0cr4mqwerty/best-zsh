@@ -68,14 +68,13 @@ if [ "$(uname)" = "Linux" ]; then
         echo -e "${GREEN}-> Fuente instalada correctamente.${NC}"
     fi
 fi
-
 # ==========================================
 # 4. Respaldo y Despliegue de Configuraciones
 # ==========================================
 echo -e "${YELLOW}-> Configurando dotfiles (Zsh, Starship y Kitty)...${NC}"
 TIMESTAMP=$(date +%s)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-REPO_RAW_URL="https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main"
+REPO_RAW_URL="https://raw.githubusercontent.com/s0cr4mqwerty/best-zsh/main"
 
 # Respaldos de archivos previos si ya existen
 [ -f "$HOME/.zshrc" ] && mv "$HOME/.zshrc" "$HOME/.zshrc.backup.$TIMESTAMP"
@@ -106,7 +105,7 @@ else
     curl -fsSL "$REPO_RAW_URL/kitty/kitty.conf" -o "$HOME/.config/kitty/kitty.conf"
 fi
 
-# Asegurar que exista current-theme.conf para evitar errores si no se ha elegido tema con kitten
+# Asegurar que exista current-theme.conf para evitar advertencias de Kitty
 touch "$HOME/.config/kitty/current-theme.conf"
 
 # ==========================================
