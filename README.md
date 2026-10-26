@@ -72,16 +72,16 @@ kitten themes
 ## ⌨️ Atajos y Comandos Clave (Cheat Sheet)
 
 ### Shell & Navegación (Zsh + CLI)
-* `Ctrl + E`: Acepta la sugerencia predictiva en gris mostrada por `zsh-autosuggestions`.
-* `Ctrl + F`: Salta una palabra hacia adelante dentro de la sugerencia.
+* `Ctrl + Espacio` / `Ctrl + E`: Acepta la sugerencia predictiva completa en gris mostrada por `zsh-autosuggestions`.
+* `Ctrl + F`: Salta una palabra hacia adelante dentro de la sugerencia predictiva.
 * `Flecha Arriba / Flecha Abajo`: Con texto ya escrito (ej. `git`), busca únicamente comandos pasados en el historial que contengan esa palabra.
-* `Tab`: Abre el menú interactivo flotante gestionado por `fzf-tab` para autocompletar rutas o argumentos.
+* `Tab`: Abre el menú interactivo flotante gestionado por `fzf-tab` para autocompletar rutas, comandos y argumentos.
 * `Ctrl + R`: Abre la búsqueda difusa del historial interactivo con `fzf`.
-* `z <carpeta>`: Salta a directorios frecuentados sin escribir la ruta absoluta ni relativa (ej. `z descargas`).
+* `z <carpeta>`: Salta a directorios frecuentados sin escribir la ruta completa (ej. `z descargas`).
 * `ls`: Lista archivos con iconos y directorios agrupados al inicio (`eza`).
 * `ll`: Lista detallada con permisos octales y fechas legibles (`eza -la`).
 * `tree`: Despliega la jerarquía de carpetas en un árbol gráfico.
-* `cat <archivo>`: Visualiza archivos con números de línea y soporte de colores (`bat`).
+* `cat <archivo>`: Visualiza archivos con números de línea y resaltado sintáctico (`bat`).
 
 ### Terminal Kitty
 * `Ctrl + Shift + Enter`: Abre una nueva ventana dividida dentro de la pestaña actual.
